@@ -5,6 +5,7 @@ import AddInput from "./components/AddInput";
 import TodoList from "./components/TodoList";
 import Empty from "./components/Empty";
 import Header from "./components/Header";
+import firestore from '@react-native-firebase/firestore';
 
 export default function App() {
   const [data, setData] = useState([]);
